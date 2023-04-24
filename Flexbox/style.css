@@ -1,0 +1,74 @@
+.flex-container1{
+    display: flex;
+}
+
+.flex-container2{
+    display: flex;
+}
+
+.flex-container3{
+    display: flex;
+}
+
+.flex-container4{
+    display: flex;
+    align-items: center;
+    height: 300px;
+    width: 300px;
+    border: 4px solid black;
+    padding: 16px;
+    gap: 8px;
+}
+
+.flex-container1 .one, 
+.flex-container1 .two, 
+.flex-container1 .three{
+    background: wheat;
+    border: 2px solid green;
+    height: 50px;
+    flex: 1;
+}
+
+.flex-container2 .four,
+.flex-container2 .five,
+.flex-container2 .six{
+    background: white;
+    border: 2px solid black;
+    height: 50px;
+    flex: 1;
+}
+
+.flex-container2 .five{
+    background: yellow;
+}
+.flex-container3 div{
+    background: red;
+    border: 2px solid black;
+    height: 50px;
+}
+.flex-container3 .seven,
+.flex-container3 .nine{
+    flex-grow: 1;
+    flex-shrink: 1;
+}
+.flex-container3 .eight{
+    flex-grow: 2;
+    flex-shrink: 1;
+}
+
+.flex-container4 div{
+    background: blueviolet;
+    border: 2px solid black;
+    width: 100px;
+    height: 100px;
+}
+
+.flex-container4 .ten{
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.flex-container4 .twelve{
+    justify-content: flex-end;
+    align-items: flex-end;
+}
